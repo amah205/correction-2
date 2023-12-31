@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--OWL-CAROUSEL-CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--aos cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--NAVBAR-SECTION-->
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light  ">
+      <div class="container">
+        <a class="navbar-brand" href="#">CARVILLA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-m " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature">FEATURE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#new-cars">NEW CARS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#client">BRANDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACTS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--HERO-SECTIOn-->
+    <section id="hero" class="hero-section bg-cover" style="background-image: url(img/welcome-hero/welcome-banner.jpg);">
+      <div class="over"></div>
+
+      <div class="container-md  hero-con text-center ">
+        <div class="row">
+          <div class="col-12" data-aos="zoom-out-up"  data-aos-duration="3000">
+            <h1>GET YOUR DESIRED CAR IN REASONABLE PRICE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Aut provident asperiores, fugiat labore deserunt corrupt<br>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="btn btn-main">Get Started</div>
+
+            
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <!--SERVICE-SECTION-->
+    <section id="service" class="service-section " >
+
+      <div class="container position">
+        <div class="row  form-mobile">
+          <div class="col-md-3">
+            <div class="form-main ">
+              <h5>Select Year</h5>
+              <select class="form-select form-style" aria-label="Default select example">
+                
+                <option selected>Year</option>
+                <option value="1">2000</option>
+                <option value="2">2017</option>
+                <option value="3">2023</option>
+              </select>
+            </div>
+
+            <div class="form-main my-4">
+              <h5>Body Style</h5>
+              <select class="form-select form-style" aria-label="Default select example">
+                <option selected >Body Style</option>
+                <option value="1">Chasis</option>
+                <option value="2">Beam</option>
+                <option value="3">stuck</option>
+              </select>
+            </div>
+            
+          </div>
+
+          <div class="col-md-3">
+            <div class="form-main ">
+              <h5>Select Make</h5>
+              <select class="form-select form-style" aria-label="Default select example">
+                
+                <option selected>Make</option>
+                <option value="1">Benz</option>
+                <option value="2">Corolla</option>
+                <option value="3">Camry</option>
+              </select>
+            </div>
+
+            <div class="form-main my-4">
+              <h5>Car condition</h5>
+              <select class="form-select form-style" aria-label="Default select example">
+                <option selected >Condition</option>
+                <option value="1">Fair</option>
+                <option value="2">Good</option>
+                <option value="3">Sound</option>
+              </select>
+            </div>  
+          </div>
+
+          <div class="col-md-3">
+            <div class="form-main ">
+              <h5>Select Model</h5>
+              <select class="form-select form-style" aria-label="Default select example">
+                
+                <option selected>Model</option>
+                <option value="1">2005</option>
+                <option value="2">2017</option>
+                <option value="3">2023</option>
+              </select>
+            </div>
+
+            <div class="form-main my-4">
+              <h5>Select Price</h5>
+              <select class="form-select form-style" aria-label="Default select example">
+                <option selected >Price</option>
+                <option value="1">$2000</option>
+                <option value="2">$3000</option>
+                <option value="3">$1000</option>
+              </select>
+            </div>
+            
+          </div>
+          <button class="col-md-3 btn-group my-auto py-2 text-center " style="height: 10%; color: #fff;width: 15%;">Search</button>
+        </div>
+        
+      </div>
+
+      <div class="container  position-2 ">
+        <div class="row text-center">
+          <div class="col-md-4  card-5" data-aos="fade-right" data-aos-duration="3000">
+            <div class="card card-1 ">
+              <div class="icon ">
+                <i class="bi bi-database-fill-gear "></i>
+              </div>
+              <h4>Largest Dealership Of Car</h4>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Sed sapiente odit et, reiciendis consequuntur recusandae.
+              </P>
+              <div class="divider"></div>
+            </div>
+            
+          </div>
+
+          <div class="col-md-4 card-5">
+            <div class="card card-1">
+              <div class="icon">
+                <i class="bi bi-house-gear-fill "></i>
+              </div>
+              <h4>Unlimited Repair Warrenty</h4>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Sed sapiente odit et, reiciendis consequuntur recusandae.
+              </P>
+              <div class="divider"></div>
+            </div>
+            
+          </div>
+
+          <div class="col-md-4 " data-aos="fade-left" data-aos-duration="3000">
+            <div class="card card-1">
+              <div class="icon">
+                <i class="bi bi-person-fill-gear"></i>
+              </div>
+              <h4>Insurance Support</h4>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Sed sapiente odit et, reiciendis consequuntur recusandae.
+              </P>
+              <div class="divider"></div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--FEATURE-SECTION-->
+    <section id="feature" class="feature-section">
+      <div class="row">
+        <div class="col text-center mb-5 feature-h1">
+          <span>Check Out The Latest Cars</span>
+          <h1>Newest Cars</h1>
+          <div class="divider"></div>
+        </div>
+
+        <div class="slides container">
+        
+          <div class="slide flex-1 slide-1">
+            <img class="slide-img" src="img/new-cars-model/ncm3.png">
+            <div class="slide-caption px-5">
+              <h3>Ferrari 488 Superfast</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Repellendus delectus nesciunt vitae aut beatae in
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                A maiores assumenda eaque quo provident. Itaque!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa, saepe.<br>
+                <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Deserunt odit placeat consectetur. Aliquam, minus sit.
+              </p>
+              <div class="btn btn-primary">View Detials</div>
+            </div>
+          </div>
+
+          <div class="slide flex-1 slide-2">
+            <img class="slide-img" src="img/new-cars-model/ncm2.png">
+            <div class="slide-caption px-5">
+              <h3>BMW Series-3 Wagon</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Repellendus delectus nesciunt vitae aut beatae in
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                A maiores assumenda eaque quo provident. Itaque!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa, saepe.<br>
+                <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Deserunt odit placeat consectetur. Aliquam, minus sit.
+              </p>
+              <div class="btn btn-primary">View Detials</div>
+            </div>
+          </div>
+
+          <div class="slide flex-1 slide-3">
+            <img class="slide-img" src="img/new-cars-model/ncm1.png">
+            <div class="slide-caption px-5">
+              <h3>Chevrolet Camaro ZA100</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Repellendus delectus nesciunt vitae aut beatae in
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                A maiores assumenda eaque quo provident. Itaque!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa, saepe.<br>
+                <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Deserunt odit placeat consectetur. Aliquam, minus sit.
+              </p>
+              <div class="btn btn-primary">View Detials</div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </section>
+
+    <!--NEW-CARS-SECTION-->  
+    <section id="new-cars" class="new-cars">
+      <div class="row">
+        <div class="col text-center mb-5 feature-h1">
+          <span>Check Out The Featured Cars</span>
+          <h1>Featured Cars</h1>
+          <div class="divider my-4"></div>
+        </div>
+      </div> 
+
+      <div class="container  " >
+        <div class="row flex-7" >
+            <div class="col-4 new-cars-card">
+              <div class="card  ">
+                <div class="card-body">
+                  <img class="new-car-img py-5 px-2" src="img/featured-cars/fc8.png">
+                </div>
+                <div class="img-caption">
+                  <p class="border-top" style="word-spacing: 5px;"> 
+                    Model 2017  3100Mi  240HP  Automatic
+                  </p>
+                </div>
+              </div>
+
+              <div class="new-car-caption py-4">
+                <h4>BMW 6-Series Gran Coupe</h4>
+                <p>
+                  $89.395<br>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Provident pariatur maiores iure 
+                  
+                </p>
+              </div>
+
+            </div> 
+
+            <div class="col-4 new-cars-card " style="width: 30%;">
+              <div class="card">
+                <div class="card-body">
+                  <img class="new-car-img py-5 px-2" src="img/featured-cars/fc2.png">
+                </div>
+                <div class="img-caption">
+                  <p class="border-top" style="word-spacing: 5px;"> 
+                    Model 2017  3100Mi  240HP  Automatic
+                  </p>
+                </div>
+              </div>
+
+              <div class="new-car-caption py-4">
+                <h4>Chevrolet Camaro WMV20</h4>
+                <p>
+                  $66.575<br>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Provident pariatur maiores iure 
+                  
+                </p>
+              </div>
+
+            </div> 
+
+
+            <div class="col-md-4 new-cars-card" style="width: 30%;">
+              <div class="card">
+                <div class="card-body">
+                  <img class="new-car-img py-5 px-2" src="img/featured-cars/fc3.png">
+                </div>
+                <div class="img-caption">
+                  <p class="border-top" style="word-spacing: 5px;"> 
+                    Model 2017  3100Mi  240HP  Automatic
+                  </p>
+                </div>
+              </div>
+
+              <div class="new-car-caption py-4">
+                <h4>Lamborghini V520</h4>
+                <p>
+                  $125.250<br>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Provident pariatur maiores iure 
+                  
+                </p>
+              </div>
+
+            </div> 
+
+            
+            <div class="col-md-4 new-cars-card" style="width: 30%;">
+                  <div class="card">
+                    <div class="card-body">
+                      <img class="new-car-img py-5 px-2" src="img/featured-cars/fc4.png">
+                    </div>
+                    <div class="img-caption">
+                      <p class="border-top" style="word-spacing: 5px;"> 
+                        Model 2017  3100Mi  240HP  Automatic
+                      </p>
+                    </div>
+                  </div>
+    
+                  <div class="new-car-caption py-4">
+                    <h4>Audi A3 Sedan</h4>
+                    <p>
+                      $95.500<br>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Provident pariatur maiores iure 
+                      
+                    </p>
+                  </div>
+    
+            </div>
+  
+            <div class="col-md-4 new-cars-card" style="width: 30%;">
+                  <div class="card">
+                    <div class="card-body">
+                      <img class="new-car-img py-5 px-2" src="img/featured-cars/fc5.png">
+                    </div>
+                    <div class="img-caption ">
+                      <p class="border-top" style="word-spacing: 5px;"> 
+                        Model 2017  3100Mi  240HP  Automatic
+                      </p>
+                    </div>
+                  </div>
+    
+                  <div class="new-car-caption py-4">
+                    <h4>Infiniti Z5</h4>
+                    <p>
+                      $36,850<br>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Provident pariatur maiores iure 
+                      
+                    </p>
+                  </div>
+    
+            </div>
+  
+            <div class="col-md-4 new-cars-card" style="width: 30%;">
+                  <div class="card">
+                    <div class="card-body">
+                      <img class="new-car-img py-5 px-2" src="img/featured-cars/fc6.png">
+                    </div>
+                    
+                    <div class="img-caption">
+                      <p class="border-top" style="word-spacing: 5px;"> 
+                        Model 2017  3100Mi  240HP  Automatic
+                      </p>
+                    </div>
+                  </div>
+    
+                  <div class="new-car-caption py-4">
+                    <h4>Porsche 718 Cayman</h4>
+                    <p>
+                      $48,500<br>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Provident pariatur maiores iure 
+                      
+                    </p>
+                  </div>
+    
+            </div> 
+          
+        </div>  
+
+        <!--<div class="row">
+            <div class="col-md-4" style="width: 30%;">
+                <div class="card">
+                  <div class="card-body">
+                    <img class="new-car-img py-5 px-2" src="img/featured-cars/fc4.png">
+                  </div>
+                  <div class="img-caption">
+                    <p class="border-top" style="word-spacing: 5px;"> 
+                      Model 2017  3100Mi  240HP  Automatic
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="new-car-caption py-4">
+                  <h4>Audi A3 Sedan</h4>
+                  <p>
+                    $95.500<br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Provident pariatur maiores iure 
+                    
+                  </p>
+                </div>
+  
+            </div>
+
+            <div class="col-md-4" style="width: 30%;">
+                <div class="card">
+                  <div class="card-body">
+                    <img class="new-car-img py-5 px-2" src="img/featured-cars/fc5.png">
+                  </div>
+                  <div class="img-caption ">
+                    <p class="border-top" style="word-spacing: 5px;"> 
+                      Model 2017  3100Mi  240HP  Automatic
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="new-car-caption py-4">
+                  <h4>Infiniti Z5</h4>
+                  <p>
+                    $36,850<br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Provident pariatur maiores iure 
+                    
+                  </p>
+                </div>
+  
+            </div>
+
+            <div class="col-md-4" style="width: 30%;">
+                <div class="card">
+                  <div class="card-body">
+                    <img class="new-car-img py-5 px-2" src="img/featured-cars/fc6.png">
+                  </div>
+                  
+                  <div class="img-caption">
+                    <p class="border-top" style="word-spacing: 5px;"> 
+                      Model 2017  3100Mi  240HP  Automatic
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="new-car-caption py-4">
+                  <h4>Porsche 718 Cayman</h4>
+                  <p>
+                    $48,500<br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Provident pariatur maiores iure 
+                    
+                  </p>
+                </div>
+  
+            </div> 
+        </div> -->
+        
+      </div>
+    </section>  
+
+    <!--BRANDS-SECTION-->  
+    <section id="client" class="client-section">
+      <div class="row mt-4">
+        <div class="col text-center mb-5 feature-h1">
+          <h1>What Our Clients Say</h1>
+          <div class="divider my-4"></div>
+        </div>
+      </div> 
+
+      <div class="container">
+        <div class="row">
+          
+          <div class="owl-carousel owl-theme">
+              
+            <div class="item client-card con-5">
+                  <div class="card ">
+                    <img src="img/clients/c2.png" class="p-5" width="2%" style="opacity: 1;">
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Provident, architecto nam! Tenetur obcaecati nesciunt
+                        labore nemo porro sequi doloribus totam fugit molestiae
+                      </p>
+                      <h4 class="card-title text-center">
+                        Romi Rain<br>London
+                      </h4>
+                    </div>
+                  </div>
+            </div>
+            <div class="item client-card con-5">
+                  <div class="card ">
+                    <img src="img/clients/c1.png" class="p-5" width="2%">
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Provident, architecto nam! Tenetur obcaecati nesciunt
+                        labore nemo porro sequi doloribus totam fugit molestiae
+                      </p>
+                      <h4 class="card-title text-center">
+                        Tommas Lilli <br>New York
+                      </h4>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="item client-card con-5">
+                  <div class="card ">
+                    <img src="img/clients/c3.png" class="p-5" width="2%">
+                    <div class="card-body">
+                      <p class="card-text text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Provident, architecto nam! Tenetur obcaecati nesciunt
+                        labore nemo porro sequi doloribus totam fugit molestiae
+                      </p>
+                      <h4 class="card-title text-center">
+                        John Doe <br>Washington
+                      </h4>
+                    </div>
+                  </div>
+            </div>
+              
+            
+            
+            <div class="item client-card con-5">
+                <div class="card ">
+                  <img src="img/clients/c2.png" class="p-5" width="2%">
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Provident, architecto nam! Tenetur obcaecati nesciunt
+                      labore nemo porro sequi doloribus totam fugit molestiae
+                    </p>
+                    <h4 class="card-title text-center">
+                      Romi Rain<br>London
+                    </h4>
+                  </div>
+                </div>
+            </div>
+              
+            <div class="item client-card con-5">
+                <div class="card ">
+                  <img src="img/clients/c3.png" class="p-5" width="2%">
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Provident, architecto nam! Tenetur obcaecati nesciunt
+                      labore nemo porro sequi doloribus totam fugit molestiae
+                    </p>
+                    <h4 class="card-title text-center">
+                      John Doe<br>Washington
+                    </h4>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="item client-card con-5">
+                <div class="card ">
+                  <img src="img/clients/c1.png" class="p-5" width="2%">
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Provident, architecto nam! Tenetur obcaecati nesciunt
+                      labore nemo porro sequi doloribus totam fugit molestiae
+                    </p>
+                    <h4 class="card-title text-center">
+                      Tommas Lilli <br>New York
+                    </h4>
+                  </div>
+                </div>
+            </div>
+            
+            
+            
+
+            
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="container ">
+        <div class="">
+          <div class="">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row mt-5">
+                    <div class="col-4">
+                      <div class=" card p-4 text-center" style="box-shadow: 0 3px 10px rgba(0, 0,0, 0.3);">
+                        <div class="single-box">
+                          <div class="img-area">
+                            <img src="img/brand/br1.png" class="card-body">
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="col-4">
+                      <div class=" card p-4 text-center" style="box-shadow: 0 3px 10px rgba(0, 0,0, 0.3);" >
+                        <div class="single-box">
+                          <div class="img-area">
+                            <img src="img/brand/br2.png" class="card-body">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class=" card p-4 text-center" style="box-shadow: 0 3px 10px rgba(0, 0,0, 0.3);">
+                        <div class="single-box">
+                          <div class="img-area">
+                            <img src="img/brand/br3.png" class="card-body">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item client-my">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class=" card p-4 text-center" style="box-shadow: 0 3px 10px rgba(0, 0,0, 0.3);">
+                        <div class="single-box">
+                          <div class="img-area">
+                            <img src="img/brand/br4.png" class="card-body">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class=" card p-4 text-center" style="box-shadow: 0 3px 10px rgba(0, 0,0, 0.3);">
+                        <div class="single-box">
+                          <div class="img-area">
+                            <img src="img/brand/br5.png" class="card-body">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class=" card p-4 text-center" style="box-shadow: 0 3px 10px rgba(0, 0,0, 0.3);">
+                        <div class="single-box">
+                          <div class="img-area">
+                            <img src="img/brand/br6.png" class="card-body">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---CONTACT-SECTION-->
+    <section id="contact" class="contact-section">
+      <div class="container text-light">
+        <div class="row">
+          <div class="col-md-3">
+            <h4 class="fw-bold my-5">CARVILLA</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Nihil voluptatibus sed quisquam quis, fugit sit sunt<br><br>
+              Info@themesine.com<br>+(885)2563154554              
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <h4 class=" my-5">ABOUT DEVLOON</h4>
+            <p>About<br><br>
+              Career<br><br>
+              Terms Of Service<br><br>
+              Privacy Policy
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <h4 class=" my-5">TOP BRANDS</h4>
+            <P>
+              BMW &emsp; &emsp; Ferrari<br><br>
+              Lamborghni &emsp; &emsp; Porsche<br><br>
+              Camaro &emsp; &emsp; Land Rover<br><br>
+              Audi &emsp; &emsp; Astin Martin<br><br>
+              Infiniti &emsp; &emsp; Nissan<br><br>
+              Toyota &emsp; &emsp; Benz
+            </P>
+          </div>
+
+          <div class="col-md-3">
+            <h4 class="my-5"> NEWS LETTER</h4>
+            <p>
+              Subscribe to get lattest news<br>Update and informations
+            </p>
+            <form>
+              <input type="email" placeholder="Add Email">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/></svg>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--JQUERY-OWL-CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--JAVASCRIPT-OWL-CAROUSEL-CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!--aos js cdn-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+      })
+    </script>
+
+  </body>
+</html>
